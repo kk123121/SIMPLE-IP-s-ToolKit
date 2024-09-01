@@ -130,71 +130,72 @@ color 1
 chcp 65001
 cls
 echo this is in beta! So it might not work. (IF ANY PROMBLEMS PLEASE DM ME ON DISCORD @mrnuggetthe1st)
+echo WARNING: THIS WILL CREATE 2 FILES nul AND null THEY WILL BE CREATED IN THE LOCATION THIS SCRIPT WAS DOWNLOADED TO!
 
 set /p IP=Enter get ip:
 :rainbow
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
-ping -t 2 0 10 192.168.0.1 >nul
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 192.168.0.1 >nul.txt
 
 color a
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 color 02
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 03
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 04
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 color 05
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 06
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 07
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 08
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 09
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 color 0a
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 color 0b
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 0c
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
 ping -t 2 0 10 192.168.0.1 >nul
 color 0d
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 color 0e
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 color 0f
-PING -n %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo This Wifi is either ass or is offline...)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
 ping -t 2 0 10 192.168.0.1 >nul
 goto rainbow
